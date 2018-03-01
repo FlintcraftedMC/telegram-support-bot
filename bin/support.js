@@ -4,7 +4,7 @@ const {
 } = Telegraf
 
 /* edit below */
-const bot = new Telegraf("522904552:AAGDdqbeAr5vD6B22Gqla0zW139Rhwk6agM") // support bot
+const bot = new Telegraf("522904552:AAHzsiCQ9v3bfnVafcl7X27s7xzL0uDWYYw") // support bot
 var staff_chat = "-258381102" // telegram staff group chat id
 var owner_id = "395865787" // telgram owner id
 var supported_bot = "Flintcrafted support bot" // service name of the supported bot
