@@ -7,11 +7,10 @@ const {
 const PORT = process.env.PORT ||  3000;
 
 /* edit below */
-const URL = process.env.URL || 'https://YOURAPP.herokuapp.com'
-const API_TOKEN = "YOUR_BOT_TOKEN" // support bot
-var staff_chat = "YOUR_STAFF_CHAT_ID" // telegram staff group chat id
-var owner_id = "YOUR_ID" // telgram owner id
-var supported_bot = "service_name" // service name of the supported bot
+const bot = new Telegraf("522904552:AAHzsiCQ9v3bfnVafcl7X27s7xzL0uDWYYw") // support bot
+var staff_chat = "-258381102" // telegram staff group chat id
+var owner_id = "395865787" // telgram owner id
+var supported_bot = "Flintcrafted support bot" // service name of the supported bot
 var startCommandText = "Welcome in our support chat! Ask your question here."
 var faqCommandText = "Check out our FAQ here: Address to your FAQ"
 /* edit end */
