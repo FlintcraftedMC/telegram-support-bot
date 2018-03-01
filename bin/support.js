@@ -4,10 +4,10 @@ const {
 } = Telegraf
 
 /* edit below */
-const bot = new Telegraf("BOT_TOKEN_SUPPORT_BOT") // support bot
-var staff_chat = "SUPPORT_STAFF_GROUP_ID" // telegram staff group chat id
-var owner_id = "OWNER_ID" // telgram owner id
-var supported_bot = "service_name" // service name of the supported bot
+const bot = new Telegraf("522904552:AAGDdqbeAr5vD6B22Gqla0zW139Rhwk6agM") // support bot
+var staff_chat = "-258381102" // telegram staff group chat id
+var owner_id = "395865787" // telgram owner id
+var supported_bot = "Flintcrafted support bot" // service name of the supported bot
 var startCommandText = "Welcome in our support chat! Ask your question here."
 var faqCommandText = "Check out our FAQ here: Address to your FAQ"
 /* edit end */
