@@ -7,10 +7,10 @@ const {
 const PORT = process.env.PORT ||  3000;
 
 /* edit below */
-const bot = new Telegraf("522904552:AAHzsiCQ9v3bfnVafcl7X27s7xzL0uDWYYw") // support bot
-var staff_chat = "-258381102" // telegram staff group chat id
-var owner_id = "395865787" // telgram owner id
-var supported_bot = "Flintcrafted support bot" // service name of the supported bot
+const bot = new Telegraf("--") // support bot
+var staff_chat = "--" // telegram staff group chat id
+var owner_id = "--" // telgram owner id
+var supported_bot = "--" // service name of the supported bot
 var startCommandText = "Welcome in our support chat! Ask your question here."
 var faqCommandText = "Check out our FAQ here: Address to your FAQ"
 /* edit end */
